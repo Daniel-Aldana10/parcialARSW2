@@ -13,3 +13,7 @@ Link del despliegue: https://parcialarssw-fmdygqancdc3eqhf.canadacentral-01.azur
 # Endpoint
 api/generate
 Espera un String que hace refencia a la ciudad 
+
+# Funcionamiento
+
+![imagen](images/imagen.png)
