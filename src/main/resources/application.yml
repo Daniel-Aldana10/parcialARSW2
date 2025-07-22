@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: parcial
+  config:
+    import: optional:file:.env[.properties]
+  data:
+    redis:
+      host: ${REDIS_HOST}
+      port: 11034
+      password: ${REDIS_PASSWORD}
+      # username: ${REDIS_USERNAME} # Solo si tu Redis lo requiere
+  cache:
+    type: redis
